@@ -1,12 +1,16 @@
 
-🛫 Flight Management System
-[![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net) [![XAMPP](https://img.shields.io/badge/xampp-%23F37623.svg?style=for-the-badge&logo=xampp&logoColor=white)](https://www.apachefriends.org) [![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com)
+# 🛫 Flight Management System
 
-✈ Project Name
+[![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net) 
+[![XAMPP](https://img.shields.io/badge/xampp-%23F37623.svg?style=for-the-badge&logo=xampp&logoColor=white)](https://www.apachefriends.org)
+[![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com)
+
+
+##✈ Project Name
 
 Flight Management System (FMS)
 
-📝 Short Introduction
+##📝 Short Introduction
 
 A Flight Booking & Management System built using PHP (backend) and MySQL (database) running on XAMPP.
 This project demonstrates CRUD operations (Create, Read, Update, Delete) for managing flights, passengers, bookings, tickets, and payments.
@@ -14,7 +18,7 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) for man
 
 ---
 
-🌟 Features
+##🌟 Features
 
 🗂 Passenger Management → Add, edit, and delete passenger records
 
@@ -30,7 +34,7 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) for man
 
 ---
 
-🛠 Tech Stack
+##🛠 Tech Stack
 
 🖥 Frontend: HTML + CSS
 
@@ -44,18 +48,20 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) for man
 
 ---
 
-⚡ Setup Instructions
+##⚡ Setup Instructions
 
-📂 Repo Setup
+###📂 Repo Setup
 
 1. Clone the repo:
-
+   
+```bash
 git clone https://github.com/irx358/Flight_Mtg_sys.git
 cd Flight_Mtg_sys
-
+```
 
 2. Repo structure:
-
+   
+```
 /Flight_mtg_sys
 │── src/
 │   ├── admin_panel.html
@@ -73,12 +79,12 @@ cd Flight_Mtg_sys
 │── README.md
 │── .gitignore
 
-
+```
 
 
 ---
 
-🗄 Database Setup
+###🗄 Database Setup
 
 1. Start Apache and MySQL from XAMPP.
 
@@ -87,32 +93,36 @@ cd Flight_Mtg_sys
 
 
 3. Create a database:
-
+```
 flight_mtg03
-
+```
 
 4. Import sql/flight_mtg03.sql into this database.
 
 
 5. Update DB connection in your db_connect.php file if needed:
 
+```
 <?php
 $conn = mysqli_connect("localhost", "root", "", "flight_mtg03");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 ?>
+```
+
 ---
 
-▶ Running Instructions
+##▶ Running Instructions
 
 1. Place the src/ folder inside your XAMPP htdocs/.
 
 
 2. Navigate to:
 
+```
 http://localhost/src/index.php
-
+```
 
 3. The system should now connect to your MySQL DB and work normally.
 
@@ -121,7 +131,7 @@ http://localhost/src/index.php
 
 ---
 
-🤝 Connect
+##🤝 Connect
 
 🐙 GitHub: <a href="https://github.com/IRX358">IRX358</a>
 
