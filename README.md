@@ -135,9 +135,9 @@ http://localhost/src/index.php
 
 🐙 GitHub: <a href="https://github.com/IRX358">IRX358</a>
 
-💼 LinkedIn: <a href="https://www.linkedin.com/in/irfan-basha-396b97282/"> Irfan Basha </a>
+💼 LinkedIn: <a href="https://www.linkedin.com/irfan358/"> Irfan Basha </a>
 
 ---
 
->  © 2025 Irfan IR || 
+>  © 2024 Irfan IR || 
             Built with great MOOD😎 , EXCITEMENT🤩 and CURIOSITY🤔
